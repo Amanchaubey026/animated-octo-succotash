@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to Saviour, an immersive gaming platform designed to deliver an unmatched gaming experience. Our platform not only offers captivating gameplay but also incorporates a secure and convenient wallet feature, enhancing your overall experience. Whether you're a casual gamer or a competitive enthusiast, Saviour has something for everyone.
+Welcome to Animated-octo-succotash! We've meticulously designed our gaming platform with a focus on user interface (UI) excellence. Immerse yourself in seamless gameplay experiences that are not only visually stunning but also intuitively navigable. With our convenient wallet feature seamlessly integrated into the UI, managing transactions has never been easier. Whether you're a casual player or a dedicated gamer, Saviour's UI ensures a smooth and enjoyable journey for all users.
 
 ##UI Preview
 
