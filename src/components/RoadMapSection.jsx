@@ -1,7 +1,7 @@
 import React from "react";
 
-const RoadMap = () => {
+const RoadMapSection = () => {
   return <div>RoadMap</div>;
 };
 
-export { RoadMap };
+export { RoadMapSection };

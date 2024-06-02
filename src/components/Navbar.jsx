@@ -16,6 +16,7 @@ import {
   useDisclosure,
   Image,
 } from "@chakra-ui/react";
+import { createWeb3Modal } from '@web3modal/wagmi/react'; 
 import {
   HamburgerIcon,
   CloseIcon,
@@ -27,6 +28,12 @@ import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const { isOpen, onToggle } = useDisclosure();
+
+  const handleClick = () => {
+    const web3Modal = createWeb3Modal();
+    web3Modal.open();
+  };
+
 
   return (
     <Box maxW={"1512px"} m={"0 auto"}>
@@ -125,6 +132,7 @@ const Navbar = () => {
             _hover={{
               bg: "linear-gradient(93.73deg, #F05733 20.19%, #ED0137 88.3%)",
             }}
+            onClick={handleClick}
           >
             Connect Wallet
           </Button>
