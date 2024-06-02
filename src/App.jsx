@@ -8,7 +8,6 @@ import { Introduction } from "./components/Introduction";
 import { RoadMapSection } from "./components/RoadMapSection";
 import { Tokenomics } from "./components/Tokenomics";
 import { Web3ModalProvider } from "./wallet/WalletConnect";
-import Timer from "./components/Timer";
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
       <RoadMapSection />
       <FAQ />
       <Footer />
-      <Timer/>
     </Box>
     </Web3ModalProvider>
   );
